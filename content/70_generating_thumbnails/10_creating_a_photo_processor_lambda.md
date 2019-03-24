@@ -60,7 +60,8 @@ const uuidv4 = require('uuid/v4');
 Note: Sharp requires native extensions to be installed in a way that is compatible
 with Amazon Linux (in order to run successfully in a Lambda execution environment).
 
-If you're not working in Cloud9, you can follow the instructions on http://sharp.pixelplumbing.com/en/stable/install/#aws-lambda how to install the module and native dependencies.
+If you're not working in Cloud9, you can follow the instructions on http://sharp.pixelplumbing.com/en/stable/install/#aws-lambda how to install the module and native dependencies. Ensure you run the npm command in the ./amplify/backend/function/workshopphotoprocessor/src directory
+
 */
 const Sharp = require('sharp');
 
